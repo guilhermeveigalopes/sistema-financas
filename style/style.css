@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #52658f;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.resume {
+  display: flex;
+  padding: 10px 0;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resume>div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 1rem;
+  padding: 10px;
+  width: 205px;
+}
+
+.newItem {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.divDesc,
+.divType,
+.divAmount {
+  display: flex;
+  flex-direction: column;
+}
+
+.newItem>button {
+  background-color: #333a56;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  border-radius: 1rem;
+  cursor: pointer;
+  height: 34px;
+  
+}
+
+input,
+select {
+  padding: 5px;
+  background-color: transparent;
+  width: 200px;
+}
+
+.divTable {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+th {
+  text-align: start;
+  border-bottom: inset;
+  padding-bottom: 5px;
+
+}
+
+i {
+  font-size: 25px;
+}
+
+.bxs-chevron-up-circle {
+  color: #00C9A7;
+}
+
+.bxs-chevron-down-circle {
+  color: #D83121;
+}
+
+.columnAction {
+  width: 40px;
+  text-align: center;
+
+}
+
+.columnAction>button {
+  background: transparent;
+  border: none;
+}
+
+.columnAmount {
+  width: 30%;
+}
+
+.columnType {
+  width: 80px;
+  text-align: center;
+}
+
+
+#desc {
+  border: 1px solid #333a56;
+  color: #52658f;
+  border-radius: 1rem;
+
+}
+
+
+#amount {
+  border: 1px solid #333a56;
+  color: #52658f;
+  border-radius: 1rem;
+}
+
+
+#type {
+  border: 1px solid #333a56;
+  color: #52658f;
+  border-radius: 1rem;
+
+}
+
+  /* paleta de cor (puro e destacado)
+  {
+    2b2d42
+    8d99ae
+    edf2f4
+    ef233c
+    d90429
+  } */

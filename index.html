@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sistema de Fianças</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Minhas Finanças</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+            <button class="btn-entrar">Entrar</button>
+        </nav>
+    </header>
+    
+        
+
+    <main>
+
+
+        <div class="resume">
+            <div>
+                Entradas: R$
+                <span class="incomes">0.00</span>
+            </div>
+            <div>
+                Saídas: R$
+                <span class="expenses">0.00</span>
+            </div>
+            <div>
+                Total: R$
+                <span class="total">0.00</span>
+            </div>
+        </div>
+        <div class="newItem">
+            <div class="divDesc">
+                <label for="desc">Descrição</label>
+                <input type="text" id="desc" />
+            </div>
+            <div class="divAmount">
+                <label for="amount">Valor</label>
+                <input type="number" id="amount" />
+            </div>
+            <div class="divType">
+                <label for="type">Tipo</label>
+                <select id="type">
+                    <option>Entrada</option>
+                    <option>Saída</option>
+                </select>
+            </div>
+            <button id="btnNew">Incluir</button>
+        </div>
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th class="columnAmount">Valor</th>
+                        <th class="columnType">Tipo</th>
+                        <th class="columnAction"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+    </main>
+
+    <script src="script/script.js">
+
+    </script>
+</body>
+
+</html>
